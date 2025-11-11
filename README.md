@@ -1,0 +1,2 @@
+# ProjectManage
+ClaudeCodeを主軸に置いたAI駆動開発のプロセスを定義する
