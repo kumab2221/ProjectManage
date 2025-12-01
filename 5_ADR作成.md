@@ -1,6 +1,6 @@
-# 4. ADR 作成フェーズ
+# 5. ADR 作成フェーズ
 
-`docs/design/01_architecture-evaluation.md` を起点に、**設計判断を正式に記録する ADR（Architecture Decision Record）** を作成し、設計〜実装フェーズへ意思決定を引き継ぐ。
+`docs/design/01_architecture-evaluation.md` を起点に、**設計判断を正式に記録する ADR（Architecture Decision Record）** を作成し、ソフトウェア設計〜実装フェーズへ意思決定を引き継ぐ。
 
 ADR は「短く・読みやすく・比較可能」であることが絶対条件。1 つの明確な決定につき 1 つの ADR を作る。
 
@@ -9,6 +9,7 @@ ADR は「短く・読みやすく・比較可能」であることが絶対条�
 ## 前提条件
 
 - `docs/requirements/02_system-requirements.md` が凍結済み
+- `docs/design/00_system-design.md` が凍結済み
 - `docs/design/01_architecture-evaluation.md` が凍結済み（Inputs for ADR が整っている）
 
 ---
@@ -190,4 +191,4 @@ STEP 5：ADR Freeze（承認）
 - `ADR/ADR-003-*.md`（Status: Accepted）
 - …プロジェクトで必要な分だけ継続
 
-これらの ADR が、次フェーズ「5. 設計」の入力となる。
+これらの ADR が、次フェーズ「6. ソフトウェア設計」の入力となる。
